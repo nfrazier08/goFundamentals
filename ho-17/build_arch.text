@@ -1,0 +1,8 @@
+// Build for windows
+GOOS=windows go build main.go
+
+// Build for linux
+GOOS=linux go build main.go
+
+// Build for mac (darwin)
+GOOS=darwin go build main.go

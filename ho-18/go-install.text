@@ -1,0 +1,13 @@
+// Installing a Go package
+
+// Look in Go Path to see packages
+echo $GOPATH or go env 
+
+// Install package
+go install main.go
+
+// Check package was installed in Go Path
+ls -la /Users/nicole/go/bin
+
+// Run package
+./main or just package name of main
